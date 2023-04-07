@@ -1,2 +1,2 @@
 # KMFormula
-Minecraft JEのコマンドで数式から計算をするためのライブラリーです
+Minecraft JEのコマンドで数式から計算を行うためのライブラリです
