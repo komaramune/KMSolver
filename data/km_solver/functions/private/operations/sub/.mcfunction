@@ -1,10 +1,10 @@
 # 減算処理
 
 # 左辺処理
-execute unless data storage km_formula:_ formulas[-1].sub[0].n run function km_formula:formula/operations/sub/l
+execute unless data storage km_formula:_ formulas[-1].sub[0].n run function km_formula:private/operations/sub/l
 
 # 右辺処理
-execute unless data storage km_formula:_ formulas[-1].sub[1].n run function km_formula:formula/operations/sub/r
+execute unless data storage km_formula:_ formulas[-1].sub[1].n run function km_formula:private/operations/sub/r
 
 # KMFloatOpで演算
 data modify storage km_float_op: input.x set from storage km_formula:_ formulas[-1].sub[0].n

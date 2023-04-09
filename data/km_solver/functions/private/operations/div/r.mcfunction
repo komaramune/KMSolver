@@ -5,7 +5,7 @@ data modify storage km_formula:_ formulas append from storage km_formula:_ formu
 
 # 演算
 execute unless data storage km_formula:_ formulas[-1].v run function #km_formula:op_select
-execute if data storage km_formula:_ formulas[-1].v run function km_formula:formula/var
+execute if data storage km_formula:_ formulas[-1].v run function km_formula:private/var
 
 # 呼ぼ出し元のノードを上書き
 data modify storage km_formula:_ formulas[-2].div[1] set from storage km_formula:_ formulas[-1]
