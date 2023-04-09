@@ -7,7 +7,7 @@ data modify storage km_formula:_ formulas append from storage km_formula: input
 execute if loaded ~ ~ ~ run summon text_display ~ ~ ~ {UUID:[I;1338,0,0,0]}
 
 # 計算開始
-function km_formula:formula/op_select
+function #km_formula:op_select
 
 # KMFloatOp用制御エンティティ削除
 kill 53a-0-0-0-0
