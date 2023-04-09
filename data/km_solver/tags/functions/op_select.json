@@ -1,5 +1,5 @@
 {
     "values": [
-        "km_formula:formula/op_select"
+        "km_solver:private/op_select"
     ]
 }

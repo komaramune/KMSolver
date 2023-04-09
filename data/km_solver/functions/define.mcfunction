@@ -1,6 +1,6 @@
 
 #> 引数ストレージ
-#define storage km_formula:
+#define storage km_solver:
 
 #> 処理用ストレージ
-#define storage km_formula:_
+#define storage km_solver:_
