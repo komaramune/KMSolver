@@ -4,6 +4,9 @@ Minecraft JEのコマンドで数式から計算を行うためのライブラ�
 # できること
 NBTで表現された数式の計算
 
+# 対応バージョン
+Minecraft Java Edition 1.19.4~
+
 # 前提
 このライブラリは以下のライブラリを前提としているため合わせての導入をお願いします
 KMFloatOp (https://github.com/komaramune/KMFloatOp)
