@@ -14,3 +14,4 @@ function km_float_op:operations/private/sub
 # 計算結果でノードを上書き
 data modify storage km_solver:_ formulas[-1] set value {n:0f}
 data modify storage km_solver:_ formulas[-1].n set from storage km_float_op: output
+
