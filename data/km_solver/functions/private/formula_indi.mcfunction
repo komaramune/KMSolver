@@ -11,6 +11,9 @@ data modify storage km_solver: outputs append from storage km_solver:_ formulas[
 # 変数代入
 execute if data storage km_solver:_ inputs[-1].v run function km_solver:private/var_set
 
+# プリント
+execute if data storage km_solver:_ inputs[-1].p run tellraw @p [{"nbt":"inputs[-1].p","storage":"km_solver:_"},{"text":" = "},{"nbt":"outputs[-1]","storage":"km_solver:"}]
+
 # 後片付け
 data remove storage km_solver:_ formulas
 

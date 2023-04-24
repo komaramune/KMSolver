@@ -48,6 +48,11 @@ function km_solver:solve
 出力ストレージに結果が格納される
 data get storage km_solver: outputs
 ->[5.0f.0.5f,4.5f,3.75f]
+
+pオプションを指定することで計算時に結果のプリントが可能
+data modify storage km_solver: inputs set value [{p:"2.0*3.0",f:{mul:[{n:2.0f},{n:3.0f}]}}]
+data get storage km_solver: outputs
+->2.0*3.0 = 6.0f
 ```
 
 # 連絡先
